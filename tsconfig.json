@@ -1,6 +1,6 @@
 {
     "compilerOptions": {
-        "target": "es6",
+        "target": "es5",
         "strictNullChecks": true,
         "sourceMap": true,
         "removeComments": true,
@@ -12,6 +12,10 @@
         "noUnusedLocals": true,
         "noUnusedParameters": true,
         "baseUrl": "./src",
+        "lib": [
+            "es2015",
+            "dom"
+          ],      
         "paths" : {
           "/*": [
               "./*"

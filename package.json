@@ -1,7 +1,7 @@
 {
-  "name": "docx",
+  "name": "docx-i11",
   "version": "4.0.0",
-  "description": "Generate .docx documents with JavaScript (formerly Office-Clippy)",
+  "description": "Generate .docx documents with JavaScript (formerly Office-Clippy) -> This is a fork with IE11 support",
   "main": "build/index.js",
   "scripts": {
     "pretest": "rimraf ./build",
@@ -31,7 +31,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/dolanmiu/docx.git"
+    "url": "git+https://github.com/m55c55/docx"
   },
   "keywords": [
     "docx",
